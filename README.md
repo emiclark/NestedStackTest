@@ -1,4 +1,4 @@
-# StackViewTest
+# Nested StackView Test
 This project programmatically creates and displays 2 nested stackviews (stack1 inside stack2). Both stackViews expand correctly with varying content.
 An extension to the UIView is added to help apply constraints to the stackViews in a more simple and intuitive way.
 
