@@ -21,6 +21,17 @@ class ViewController: UIViewController {
         stack.distribution = .fill
         return stack
     }()
+
+    var stack2: UIStackView = {
+        // create stackView
+        let stack = UIStackView()
+        stack.translatesAutoresizingMaskIntoConstraints = false
+        stack.axis = .vertical
+        stack.alignment = .top
+        stack.spacing = 5
+        stack.distribution = .fill
+        return stack
+    }()
     
     var bkgView1: UIView = {
         // create view pinned to stack - so that stack has a bkgcolor of purple
